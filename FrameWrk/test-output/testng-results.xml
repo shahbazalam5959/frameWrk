@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting Up reports and test is getting ready...]]>
+    </line>
+    <line>
+      <![CDATA[Setting done - Test can be Started...]]>
+    </line>
+    <line>
+      <![CDATA[Test is about to end!!!]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59852" started-at="2019-12-16T17:01:34Z" finished-at="2019-12-16T17:02:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59852" started-at="2019-12-16T17:01:34Z" finished-at="2019-12-16T17:02:33Z">
+      <class name="com.automation.testcases.LoginTestCRM">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2]" name="setUpSuite" is-config="true" duration-ms="1577" started-at="2019-12-16T22:31:32Z" finished-at="2019-12-16T22:31:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting Up reports and test is getting ready...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2]" name="setUp" is-config="true" duration-ms="26547" started-at="2019-12-16T22:31:34Z" finished-at="2019-12-16T22:32:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting done - Test can be Started...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2]" name="Login" duration-ms="31337" started-at="2019-12-16T22:32:00Z" finished-at="2019-12-16T22:32:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2]" name="tearDownMethod" is-config="true" duration-ms="1111" started-at="2019-12-16T22:32:32Z" finished-at="2019-12-16T22:32:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=LoginTestCRM.Login()[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test is about to end!!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testcases.LoginTestCRM@68be2bc2]" name="tearDown" is-config="true" duration-ms="840" started-at="2019-12-16T22:32:33Z" finished-at="2019-12-16T22:32:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.testcases.LoginTestCRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
