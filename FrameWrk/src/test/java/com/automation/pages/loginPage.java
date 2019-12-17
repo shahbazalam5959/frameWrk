@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 public class loginPage {
 		
 		WebDriver driver;
-	
+		//Comments added for push trial.
 		public loginPage(WebDriver ldriver) //This constructor will help us to initilize the driver, otherwise it wil not able to identify the driver
 		{
 			this.driver = ldriver;//ldriver comes from the main TC 
